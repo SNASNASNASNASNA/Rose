@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz sur le Cancer du Sein</title>
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz sur le Cancer du Sein</h1>
+        <p id="question">Question 1 : Quel est le mois de sensibilisation au cancer du sein ?</p>
+        <ul id="reponses">
+            <li><button onclick="verifierReponse('A')">A) Octobre</button></li>
+            <li><button onclick="verifierReponse('B')">B) Novembre</button></li>
+            <li><button onclick="verifierReponse('C')">C) Décembre</button></li>
+        </ul>
+    </div>
+
+    <div id="score-container">
+        Score : <span id="score">0</span>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
